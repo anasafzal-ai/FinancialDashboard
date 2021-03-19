@@ -1,1 +1,1 @@
-# FinancialDashboard
+Using PostgreSQL, TimescaleDB & Docker to build my relaional database of stock data & time-series analysis, and then using Python, APIs & Streamlit  to create a series of scripts for the front-end, this Financial Dashboard is the culmination of many interesting tools.
