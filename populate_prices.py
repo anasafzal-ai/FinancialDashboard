@@ -59,17 +59,3 @@ asyncio.run(get_stocks())
 end = time.time()
 
 print("Took {} seconds.".format(end - start))
-
-
-
-
-
-# potential way to automate the SQL fetch?
-# list_all_queries = []
-# dicto = {5: [0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80]}
-# for k,v in dicto.items():
-#     for i in range(len(dicto.get(5))):
-#         query = f"SELECT * FROM stock WHERE id IN (SELECT holding_id FROM etf_holding) ORDER BY id LIMIT {k} OFFSET {v[i]}"
-#         list_all_queries.append(query)
-# for i in range(len(list_all_queries)):
-#     print(list_all_queries[i])
